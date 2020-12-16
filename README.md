@@ -1,4 +1,4 @@
-# GTFS-Downloader-and-Anlayser-(TransLink)
+# GTFS-Downloader-and-Processor-(TransLink)
 
 <p>
 
