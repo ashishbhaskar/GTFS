@@ -13,6 +13,20 @@ Refer to this Research paper for further Information - <b> An open source framew
 
 </p>
 
+<h3><b>Installation</b>.</h3>
+
+1. Install the python dependencies
+<p>
+```bash
+pip install -r requirements.txt
+```
+
+2. Set up the GTFS Data Sources accordingly (Static and Realtime).
+3. Run the Jupyter notebook file to fetch the data into csv.
+4. During the non-operating hours (12:30am to 4:30am), the downloader will activate <b> speed trajectory analysis </b> that includes 
+- real-time data preprocessing for further analysable work for transit congestion analysis.
+</p>
+
 <p>
 The <b> GTFS Static Downloader</b> and <b>GTFS Realtime Downloader</b> are scripted on <b>Python-3</b>. 
 </p>
