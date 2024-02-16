@@ -2,7 +2,7 @@
 
 <p>
 
-The continuous research, modifications and advancements resulted in evolution of two subcategories of <b> GTFS feed namely GTF Static and GTFS Realtime </b>. GTFS Static consists of static transit schedule and map data along with the fare information whereas GTFS-realtime includes trip update entity that can be predictive, real-time as well as historic, real-time vehicle location entity along with the service alert entity. This has made GTFS a rich open  source data for transit operation and evaluation and has opened doors for the user community to harness its enormous potential. 
+The continuous research, modifications and advancements resulted in evolution of two subcategories of <b> GTFS feed namely GTFS Static and GTFS Realtime </b>. GTFS Static consists of static transit schedule and map data along with the fare information whereas GTFS-realtime includes trip update entity that can be predictive, real-time as well as historic, real-time vehicle location entity along with the service alert entity. This has made GTFS a rich open  source data for transit operation and evaluation and has opened doors for the user community to harness its enormous potential. 
 
 </p>
 
@@ -19,8 +19,8 @@ Refer to this Research paper for further Information - <b> An open source framew
 ```bash
 pip install -r requirements.txt
 ```
-2. Set up the GTFS Data Sources accordingly (Static and Realtime).
-3. Run the Jupyter notebook file to fetch the data into csv.
+2. Create a config file to set up the GTFS Data source links and remote database to store the downloaded file.
+3. Run the Jupyter notebooks file to fetch the data into csv.
 4. During the non-operating hours (12:30am to 4:30am), the downloader will activate <b> speed trajectory analysis </b> that includes 
 - real-time data preprocessing for further analysable work for transit congestion analysis.
 
